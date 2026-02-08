@@ -1,13 +1,13 @@
 class Clarissa < Formula
   desc "AI-powered terminal assistant with tool execution capabilities"
   homepage "https://clarissa.run"
-  version "1.4.2"
+  version "1.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cameronrye/clarissa/releases/download/v1.4.2/clarissa-macos-arm64"
-      sha256 "4135b0d919b2da5dd848688eeac153c27ed457d6196792149027e0a64d81eea8"
+      url "https://github.com/cameronrye/clarissa/releases/download/v1.5.0/clarissa-macos-arm64"
+      sha256 "cf054a2c0b7d42ba3c0443ad630474f56033c3d26c33f2af0a56465e1cc81596"
 
       def install
         bin.install "clarissa-macos-arm64" => "clarissa"
